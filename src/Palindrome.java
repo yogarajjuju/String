@@ -14,7 +14,8 @@ class Palindrome{
             if(ch.charAt(start)!=ch.charAt(end)){
                 return  false;
 
-            } else{
+            }
+            else{
                 start++;
                 end--;
             }
